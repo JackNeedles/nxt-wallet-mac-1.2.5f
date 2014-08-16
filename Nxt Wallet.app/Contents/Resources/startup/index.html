@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootbox.min.js"></script>
+<script src="js/script.js"></script>
+<title>Nxt Wallet 1.3</title>
+</head>
+<body>
+<center><img src="img/nxt_logo.png" alt="Nxt" width="320" height="320" style="margin-top:85px;" /></center>
+<div id="loading_indicator_container"><div id="loading_indicator"><img src="img/loading_indicator.gif" /></div></div>
+<div id="server_output_container"><div id="server_output" style="text-align:center"></div></div>
+<div id="nrs_container"><iframe id="nrs" src="about:blank" frameBorder="0"></iframe></div>
+<script type="text/javascript">
+var root = document.documentElement;
+
+if (/OS X 10_10/i.test(navigator.userAgent)) {
+    root.className = "newmac";
+} else {
+    root.className = "oldmac";
+}
+</script>
+</body>
+</html>

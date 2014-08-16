@@ -1,0 +1,17 @@
+{
+	"name": "Nxt Wallet",
+	"version": "1.0.0",
+	"description": "Nxt Wallet",
+	"main": "index.html",
+	"webkit": {
+		"plugin": true
+	},
+	"window": {
+		"width": 1250,
+		"height": 800,
+		"show": false,
+		"title": "Nxt Wallet 1.0.0",
+		"toolbar": false,
+		"icon": "img/logo.png"
+	}
+}
