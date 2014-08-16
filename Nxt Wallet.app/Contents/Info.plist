@@ -41,7 +41,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.7</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Nxt.org - All rights reserved.</string>
+	<string>Copyright © 2014 Nxt.org - All rights reserved.  Modified to include Nxt core 1.2.5f</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
